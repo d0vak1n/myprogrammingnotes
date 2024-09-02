@@ -6,8 +6,8 @@ const organizationName = "d0vak1n";
 const projectName = "myprogrammingnotes";
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'My programming Notes',
+  tagline: 'S0vak1n, s0vak1n, te huele el s0vak1n...',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,6 +20,9 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: organizationName, // Usually your GitHub org/user name.
   projectName: projectName, // Usually your repo name.
+
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -69,9 +72,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'd0vak1n programming notes',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Site Logo',
         src: 'img/logo.svg',
       },
       items: [
