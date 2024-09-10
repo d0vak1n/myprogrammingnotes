@@ -1,7 +1,11 @@
 {
-  // This file is not used in compilation. It is here just for a nice editor experience.
   "extends": "@docusaurus/tsconfig",
+  // This file is not used in compilation. It is here just for a nice editor experience.
   "compilerOptions": {
-    "baseUrl": "."
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"]
   }
 }
